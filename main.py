@@ -11,4 +11,5 @@ bot = commands.Bot(command_prefix=prefix)
 async def test(ctx, arg): #make async function of bot
     await ctx.send(arg) #returning argument
 
+
 bot.run(TOKEN)
