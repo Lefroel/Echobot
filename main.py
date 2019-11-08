@@ -20,6 +20,7 @@ async def test(ctx, arg): #make async function of bot
     await ctx.send(arg) #returning argument
 
 
+@bot.command
 async def help(ctx):
     await ctx.send(bot.commands)
 
