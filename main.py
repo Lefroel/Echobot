@@ -2,7 +2,7 @@ import discord as ds
 from discord.ext import commands
 
 
-TOKEN = '642192249563906050'
+TOKEN = 'NjQyMTkyMjQ5NTYzOTA2MDUw.XcV0SA.EehXyZwaHBDjfWCET2AbcN8LiHU'
 prefix = '!'
 
 bot = commands.Bot(command_prefix=prefix)
