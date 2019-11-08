@@ -2,8 +2,8 @@ import discord as ds
 from discord.ext import commands
 
 
-TOKEN = 'NjQyMTkyMjQ5NTYzOTA2MDUw.XcV05g.6Uqk-PWNpddZ4dvD3eqVATpdAs0'
-prefix = 'e!'
+TOKEN = 'NjQyMzY4MjgxNTI0ODMwMjA4.XcV6Mg.ZddoK-vqRIsy4msH7ZmMvu3x1so'
+prefix = 'e! '
 
 bot = commands.Bot(command_prefix=prefix)
 
