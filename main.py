@@ -2,10 +2,18 @@ import discord as ds
 from discord.ext import commands
 
 
-TOKEN = 'NjQyMzY4MjgxNTI0ODMwMjA4.XcV6Mg.ZddoK-vqRIsy4msH7ZmMvu3x1so'
-prefix = 'e! '
+TOKEN = 'NjQyMzY4MjgxNTI0ODMwMjA4.XcWBkg.swy0HvSg1yqN2GYMxw5_TZKfYXI'
+PREFIX = 'e! '
+client = ds.Client()
+bot = commands.Bot(command_prefix=PREFIX)
 
-bot = commands.Bot(command_prefix=prefix)
+
+@client.event
+async def on_ready():
+    print(f'{client.user} has connected to Discord!')
+    #game = ds.Game("Trying be useful")
+    #await client.change_presence(status=ds.Status.idle, activity=game)
+
 
 @bot.command(pass_context=True) #allow to return arguments
 async def test(ctx, arg): #make async function of bot
